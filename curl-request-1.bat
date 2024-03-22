@@ -20,6 +20,7 @@
 
 @REM 1 for Standard Output and 2 for Standard Error
 @REM curl -X GET "http://127.0.0.1:8000" 1> output.json 2>NUL
+@REM
 
 curl -X GET "http://127.0.0.1:8000"
 
