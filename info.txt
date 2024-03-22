@@ -1,0 +1,18 @@
+
+# To start the local server:
+
+uvicorn main:app --reload
+
+# To test the app:
+
+http://localhost:8000 (browser)
+http http://localhost:8000 (command line)
+curl-request-1.bat (command line)
+GET 127.0.0.1:8000 (Thunder Client)
+
+# psql tips:
+
+> psql -U postgres -d mydatabase
+#   \!           (to execute a shell command)
+#   \! cls       (to clear the screen)
+
